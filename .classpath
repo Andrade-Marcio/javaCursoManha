@@ -15,5 +15,10 @@
 	<classpathentry kind="src" path="Repeticoes"/>
 	<classpathentry kind="src" path="Calculadoras"/>
 	<classpathentry kind="src" path="Strings"/>
+	<classpathentry kind="src" path="Classes"/>
+	<classpathentry kind="src" path="Listas"/>
+	<classpathentry kind="src" path="Polimorfismo"/>
+	<classpathentry kind="src" path="Heranca"/>
+	<classpathentry kind="src" path="CRUD"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
