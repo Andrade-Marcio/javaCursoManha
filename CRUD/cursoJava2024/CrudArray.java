@@ -11,7 +11,7 @@ public class CrudArray {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		int opcao;
-		
+
 		do {
 			System.out.println("\n--- MENU ---");
 			System.out.println("1. Adicionar Usuário");
@@ -21,11 +21,11 @@ public class CrudArray {
 			System.out.println("5. sair");
 			System.out.println("Escolha uma opção: ");
 			opcao = scanner.nextInt();
-			
-			switch(opcao) {
+
+			switch (opcao) {
 			case 1:
 				adicionarUsuario(scanner);
-					break;
+				break;
 			case 2:
 				exibirUsuarios();
 				break;
@@ -40,11 +40,10 @@ public class CrudArray {
 				break;
 			default:
 				System.out.println("Opção inválida!");
-				}
-			} 
-			while (opcao != 5);
-			scanner.close();
-		}
+			}
+		} while (opcao != 5);
+		scanner.close();
+	}
 
 	// Criar todos os métodos:
 	// Adicionar usuario:
@@ -100,22 +99,22 @@ public class CrudArray {
 	}
 
 	// Deletar:
-	public static void deletarUsuario(Scanner scanner) { 
-		
-System.out.println("Digite o número do usuário a ser deletado: ");
-   int index = scanner.nextInt() - 1;
-   
-   if ( index >= 0 && index < contador  ) {
-	   for (int i = index; i < contador -1; i++) {
-		   nomes[i] = nomes[i+1];
-		   idades[i] = idades[i+1];
-	   }
-	   nomes[contador -1] = null;
-	   idades[contador - 1] = 0;
-	   System.out.println("Usuário deletado com sucesso!");
-   } else {
-	   System.out.println("Usuário não localizado!");
-   }
-	
+	public static void deletarUsuario(Scanner scanner) {
+
+		System.out.println("Digite o número do usuário a ser deletado: ");
+		int index = scanner.nextInt() - 1;
+
+		if (index >= 0 && index < contador) {
+			for (int i = index; i < contador - 1; i++) {
+				nomes[i] = nomes[i + 1];
+				idades[i] = idades[i + 1];
+			}
+			nomes[contador - 1] = null;
+			idades[contador - 1] = 0;
+			System.out.println("Usuário deletado com sucesso!");
+		} else {
+			System.out.println("Usuário não localizado!");
+		}
+
 	}
 }

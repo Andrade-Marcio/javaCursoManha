@@ -20,5 +20,9 @@
 	<classpathentry kind="src" path="Polimorfismo"/>
 	<classpathentry kind="src" path="Heranca"/>
 	<classpathentry kind="src" path="CRUD"/>
+	<classpathentry kind="src" path="VerificacaodeClasse"/>
+	<classpathentry kind="src" path="Interfaces"/>
+	<classpathentry kind="src" path="SistemadePagamentos"/>
+	<classpathentry kind="src" path="GUI"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
