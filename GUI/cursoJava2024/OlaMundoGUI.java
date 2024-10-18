@@ -24,6 +24,7 @@ public class OlaMundoGUI extends JFrame {
 			}
 
 		});
+		// Adicionar botao
 		add(botao);
 		// Tornar a janela invisível:
 		setVisible(true);

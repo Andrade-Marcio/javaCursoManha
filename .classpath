@@ -24,5 +24,8 @@
 	<classpathentry kind="src" path="Interfaces"/>
 	<classpathentry kind="src" path="SistemadePagamentos"/>
 	<classpathentry kind="src" path="GUI"/>
+	<classpathentry kind="src" path="JAVAIMC"/>
+	<classpathentry kind="src" path="Java Stream"/>
+	<classpathentry kind="src" path="Calculadora"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
